@@ -30,36 +30,36 @@ El sistema requiere iniciar múltiples componentes en diferentes terminales. Sig
 
 1. **Inicia el Servidor de Cálculo**:
    
-'python main.py servidor_calculo'
+`python main.py servidor_calculo`
 
 O en su defecto 
 
-'python3 main.py servidor_calculo'
+`python3 main.py servidor_calculo`
 
 2. **Inicia el Servidor de Operaciones Aritméticas**:
 
-'python main.py servidor_op1'
+`python main.py servidor_op1`
 
 O en su defecto 
 
-'python3 main.py servidor_op1'
+`python3 main.py servidor_op1`
 
 3. **Inicia el Servidor de Operaciones Avanzadas**:
    
-'python main.py servidor_op2'
+`python main.py servidor_op2`
 
 O en su defecto 
 
-'python3 main.py servidor_op2'
+`python3 main.py servidor_op2`
 
 4. **Inicia el Cliente**:
    
-'python main.py cliente'
+`python main.py cliente`
 
 O en su defecto 
 
 bash
-'python3 main.py cliente'
+`python3 main.py cliente`
 
 
 ### Operaciones Disponibles
@@ -74,6 +74,102 @@ bash
 - `potencia`: Calcula la potencia de un número
 - `raiz`: Calcula la raíz de un número
 - `calculo_complejo`: Realiza cálculos que combinan operaciones básicas y avanzadas
+
+### Estructura de Comandos y Ejemplos
+
+#### Operaciones Aritméticas
+
+1. **Suma**
+   ```
+   Operación: suma
+   Operandos: <número1> <número2> [número3 ...]
+   
+   Ejemplo:
+   Operación: suma
+   Operandos: 5 3 2
+   Resultado: 10
+   ```
+
+2. **Resta**
+   ```
+   Operación: resta
+   Operandos: <número1> <número2> [número3 ...]
+   (Resta desde el primer número los siguientes)
+   
+   Ejemplo:
+   Operación: resta
+   Operandos: 10 3 2
+   Resultado: 5  # (10 - 3 - 2 = 5)
+   ```
+
+3. **Multiplicación**
+   ```
+   Operación: multiplicacion
+   Operandos: <número1> <número2> [número3 ...]
+   
+   Ejemplo:
+   Operación: multiplicacion
+   Operandos: 2 3 4
+   Resultado: 24  # (2 * 3 * 4 = 24)
+   ```
+
+4. **División**
+   ```
+   Operación: division
+   Operandos: <dividendo> <divisor>
+   
+   Ejemplo:
+   Operación: division
+   Operandos: 10 2
+   Resultado: 5.0
+   ```
+
+#### Operaciones Avanzadas
+
+1. **Potencia**
+   ```
+   Operación: potencia
+   Operandos: <base> <exponente>
+   
+   Ejemplo:
+   Operación: potencia
+   Operandos: 2 3
+   Resultado: 8.0  # (2³ = 8)
+   ```
+
+2. **Raíz**
+   ```
+   Operación: raiz
+   Operandos: <radicando> <índice>
+   
+   Ejemplo:
+   Operación: raiz
+   Operandos: 27 3
+   Resultado: 3.0  # (∛27 = 3)
+   ```
+
+3. **Cálculo Complejo**
+   ```
+   Operación: calculo_complejo
+   Operandos: <num1> <num2> <num3> <num4>
+   (Realiza una operación compuesta: (num1 + num2) * (num3^num4))
+   
+   Ejemplo:
+   Operación: calculo_complejo
+   Operandos: 2 3 2 2
+   Resultado: 20.0  # ((2 + 3) * (2² = 4) = 20)
+   ```
+
+### Notas Importantes sobre los Comandos
+
+- Los operandos deben estar separados por espacios
+- Use puntos para números decimales (ej: 3.14)
+- Para números negativos, use el signo menos (ej: -5)
+- El sistema mostrará errores específicos para:
+  - División por cero
+  - Raíz par de números negativos
+  - Formato incorrecto de números
+  - Cantidad incorrecta de operandos
 
 ### Ejemplo de Uso
 1. Inicia el cliente
@@ -90,12 +186,18 @@ Tiempo de procesamiento: 0.0123 segundos
 
 
 ## Estructura del Proyecto
-calculo-distribuido/
+calculo-distribuido
+
 ├── main.py # Punto de entrada principal
+
 ├── cliente.py # Implementación del cliente
+
 ├── servidor_calculo.py # Servidor principal de coordinación
+
 ├── servidor_operacion1.py # Servidor de operaciones aritméticas
+
 ├── servidor_operacion2.py # Servidor de operaciones avanzadas
+
 └── README.md # Este archivo
 
 
