@@ -30,43 +30,36 @@ El sistema requiere iniciar múltiples componentes en diferentes terminales. Sig
 
 1. **Inicia el Servidor de Cálculo**:
    
-bash
-python main.py servidor_calculo
+'python main.py servidor_calculo'
 
 O en su defecto 
 
-bash
-python3 main.py servidor_calculo
+'python3 main.py servidor_calculo'
 
 2. **Inicia el Servidor de Operaciones Aritméticas**:
 
-bash
-python main.py servidor_op1
+'python main.py servidor_op1'
 
 O en su defecto 
 
-bash
-python3 main.py servidor_op1
+'python3 main.py servidor_op1'
 
 3. **Inicia el Servidor de Operaciones Avanzadas**:
    
-bash
-python main.py servidor_op2
+'python main.py servidor_op2'
 
 O en su defecto 
 
-bash
-python3 main.py servidor_op2
+'python3 main.py servidor_op2'
 
 4. **Inicia el Cliente**:
    
-bash
-python main.py cliente
+'python main.py cliente'
 
 O en su defecto 
 
 bash
-python3 main.py cliente
+'python3 main.py cliente'
 
 
 ### Operaciones Disponibles
@@ -123,4 +116,4 @@ Los servidores utilizan las siguientes configuraciones por defecto:
 
 Para modificar estas configuraciones, puedes editar los parámetros en los respectivos archivos de servidor.
 
-Link del proyecto: [https://github.com/tuusuario/calculo-distribuido](https://github.com/DereKk8/calculo-distribuido)
+Link del proyecto: [https://github.com/DereKk8/calculo-distribuido]
