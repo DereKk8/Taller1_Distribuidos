@@ -177,14 +177,6 @@ bash
 3. Ingresa los operandos separados por espacios
 4. Observa el resultado
 
-Cliente de cálculo distribuido
-Operaciones disponibles: suma, resta, multiplicacion, division, potencia, raiz
-Operación: suma
-Operandos: 5 3 2
-Resultado: 10
-Tiempo de procesamiento: 0.0123 segundos
-
-
 ## Estructura del Proyecto
 calculo-distribuido
 
@@ -218,4 +210,4 @@ Los servidores utilizan las siguientes configuraciones por defecto:
 
 Para modificar estas configuraciones, puedes editar los parámetros en los respectivos archivos de servidor.
 
-Link del proyecto: [https://github.com/DereKk8/calculo-distribuido]
+Link del proyecto: [[https://github.com/DereKk8/calculo-distribuido](https://github.com/DereKk8/Taller1_Distribuidos.git)]
