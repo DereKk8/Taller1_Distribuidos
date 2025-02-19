@@ -73,6 +73,8 @@ bash
 #### Operaciones Avanzadas (Servidor 2)
 - `potencia`: Calcula la potencia de un número
 - `raiz`: Calcula la raíz de un número
+
+#### Operacion Compleja (Servidor 1 - 2)
 - `calculo_complejo`: Realiza cálculos que combinan operaciones básicas y avanzadas
 
 ### Estructura de Comandos y Ejemplos
