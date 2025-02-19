@@ -21,8 +21,8 @@ El sistema está compuesto por cuatro componentes principales:
 1. Clona este repositorio:
 
 bash
-git clone https://github.com/DereKk8/Taller1_Distribuidos.git
-cd calculo-distribuido
+`git clone https://github.com/DereKk8/Taller1_Distribuidos.git`
+`cd calculo-distribuido`
 
 ## Uso
 
