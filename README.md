@@ -212,4 +212,4 @@ Los servidores utilizan las siguientes configuraciones por defecto:
 
 Para modificar estas configuraciones, puedes editar los parámetros en los respectivos archivos de servidor.
 
-Link del proyecto: [[https://github.com/DereKk8/calculo-distribuido](https://github.com/DereKk8/Taller1_Distribuidos.git)]
+Link del proyecto: [[https://github.com/DereKk8/Taller1_Distribuidos](https://github.com/DereKk8/Taller1_Distribuidos.git)]
