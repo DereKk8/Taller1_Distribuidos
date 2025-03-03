@@ -330,7 +330,7 @@ Decide qué componente se ejecutará en cada máquina:
 ### 5. Consideraciones Adicionales
 
 - Si ejecutas el servidor con `host='0.0.0.0'`, escuchará en todas las interfaces de red, lo que es útil para entornos distribuidos
-- Asegúrate de que la función `notificar_cambio_estado` en el servidor auxiliar use la IP correcta del servidor de cálculo
+- Asegúrate de que la función `notificar_cambio_estado` el parametro `host` en el servidor auxiliar use la IP correcta del servidor de cálculo
 - Verifica que la función `reenviar_a_servidor_auxiliar` en el servidor de cálculo use la IP correcta del servidor auxiliar
 - Monitorea los logs de cada componente para detectar posibles problemas de conexión
 
